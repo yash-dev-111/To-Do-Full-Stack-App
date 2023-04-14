@@ -1,0 +1,130 @@
+h1{
+  color: white;
+  text-align: center;
+  height: 120px;
+}
+
+*{
+  background-color: rgb(255, 38, 74);
+  
+}
+
+.b2{
+  width:10rem;
+  border:1px solid black;
+  background-color: rgb(42, 118, 4);
+  color:aliceblue;
+  font-size: 1.2rem;
+  height: 35px;
+}
+
+.b1{
+  background-color: gray !important;
+  width:10rem;
+  font-size: 1.2rem;
+  height: 35px;
+  border:1px solid black;
+  opacity: 1;
+  cursor: not-allowed;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(24, 2, 2);
+  opacity: 1; 
+}
+
+.input-style {
+  width: 30vw;
+  height: 35px;
+  border: 1px solid black;
+  
+}
+
+.input-box{
+  justify-content: center;
+  margin-top: 50px;
+  justify-items: auto;
+  display: flex;
+}
+
+
+button:hover{
+  color: rgb(21, 17, 17);
+ }
+
+ ol{
+  list-style: none;
+  padding-left: 4px;
+
+}
+ 
+ li{
+    display: flex;
+    margin:3rem auto;
+    
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid black;
+    height:4rem;
+    text-transform: capitalize;
+    background-color: aqua;
+    
+    
+ 
+} 
+
+.icon{
+  border: none;
+   padding: 10px; 
+  margin: 0 5px; 
+  color: rgb(4, 4, 2);
+  height: 15px;
+  background-color: aqua;
+  font-size: larger;
+  
+}
+
+.allTodo{
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
